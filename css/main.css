@@ -1,23 +1,9 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
 
 html {
   font-family: "Arvo", serif;
   font-family: "Cedarville Cursive", cursive;
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
-}
 
 p {
   margin: 0;
@@ -27,8 +13,33 @@ p {
   font-family: "Arvo", serif;
 }
 
-.lazy {
+.led {
   line-height: 1;
+}
 
+.led-2 {
+  line-height: 1.1;
+}
+
+.second {
+  border-top: 1px;
+
+}
+
+.third {
+  font-family: "Arvo", serif;
+}
+
+.script {
+  font-family: "Cedarville Cursive", cursive;
+}
+
+.line {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.time {
+  padding-right: 5em;
 
 }
