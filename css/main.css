@@ -4,30 +4,20 @@ html {
   font-family: "Cedarville Cursive", cursive;
 }
 
-
 p {
   margin: 0;
 }
 
 .first {
-  font-family: "Arvo", serif;
-}
-
-.led {
-  line-height: 1;
-}
-
-.led-2 {
-  line-height: 1.1;
+  font-family: Arvo, serif;
 }
 
 .second {
   border-top: 1px;
-
 }
 
 .third {
-  font-family: "Arvo", serif;
+  font-family: Arvo, serif;
 }
 
 .script {
