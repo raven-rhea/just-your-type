@@ -256,7 +256,7 @@ small,
 
 .pico {
   font-size: .1459rem;
-  line-height: rem;
+  line-height: 0;
 }
 
 ul {
