@@ -8,12 +8,13 @@ p {
   margin: 0;
 }
 
-.first {
-  font-family: Arvo, serif;
+.second {
+  padding-left: 10em;
+  padding-right: 10em;
 }
 
-.second {
-  border-top: 1px;
+.first {
+  font-family: Arvo, serif;
 }
 
 .third {
@@ -31,5 +32,16 @@ p {
 
 .time {
   padding-right: 5em;
+}
+
+.right {
+  padding-right: 5em;
+}
+
+@media only screen and (min-width:38em) {
+
+.second {
+  padding: 1em;
+}
 
 }
