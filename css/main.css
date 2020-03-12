@@ -38,15 +38,15 @@ p {
   padding-right: 5em;
 }
 
-@media only screen and (min-width:38em) {
+@media only screen and (min-width: 38em) {
 
-.second {
-  padding-right: 7em;
-  padding-left: 7em;
-}
+  .second {
+    padding-right: 7em;
+    padding-left: 7em;
+  }
 
-.time {
-  padding-right: 10em;
-}
+  .time {
+    padding-right: 10em;
+  }
 
 }
